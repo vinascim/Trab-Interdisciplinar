@@ -9,7 +9,7 @@ from scipy.special import factorial
 plt.style.use('default') 
 sns.set_theme() 
 
-st.title("Simulação de Fila M/M/c - Restaurante Universitário")
+st.title("Simulação de Fila M/M/c - Clínica de Vacinação")
 
 uploaded_file = st.file_uploader("Faça upload do arquivo CSV com colunas 'Tempo_Espera' e 'Tempo_Atendimento'", type=["csv"])
 
@@ -124,6 +124,6 @@ if uploaded_file is not None:
         st.download_button(
             label="Download resultados da simulação (CSV)",
             data=csv,
-            file_name='resultados_simulacao.csv',
+            file_name='resultado_simulacao.csv',
             mime='text/csv',
         ) 
