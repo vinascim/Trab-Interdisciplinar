@@ -1,4 +1,4 @@
-# N2 Interdisciplinar
+# N2 Interdisciplinar - Clínica de vacinação
 
 ## 🎯 Finalidade do Projeto
 
